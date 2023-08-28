@@ -1,0 +1,10 @@
+.header {
+  height: var(--header-height);
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  justify-content: center;
+}
+.header-content {
+  width: 100%;
+}/*# sourceMappingURL=header.module.css.map */

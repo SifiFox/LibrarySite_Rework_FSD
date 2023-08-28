@@ -1,0 +1,29 @@
+@import url(reset.scss);
+@import url(variables/global.scss);
+
+body{
+    font-family: var(--font-family-main);
+}
+
+
+.page-wrapper{
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    width: 100%;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 1110px;
+    width: 100%;
+}
+
+
+.app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 20px;
+}

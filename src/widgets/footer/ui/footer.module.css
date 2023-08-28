@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  height: var(--footer-height);
+  max-width: 1110px;
+  width: 100%;
+  border-top: 1px solid var(--main-gray);
+}
+.footer_content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=footer.module.css.map */
