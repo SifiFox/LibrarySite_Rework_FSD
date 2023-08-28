@@ -1,0 +1,105 @@
+@mixin TempH1{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+}
+
+@mixin TempH2{
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+@mixin TempH3{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    letter-spacing: 0.1px;
+}
+
+@mixin SubtitleL{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: 0.1px;
+}
+
+@mixin SubtitleS{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; 
+    letter-spacing: 0.1px;
+}
+
+@mixin BodyL{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.1px;
+}
+
+@mixin BodyS{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+}
+
+@mixin InfoL{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+    letter-spacing: 0.2px;
+}
+
+@mixin InfoS{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;  
+    letter-spacing: 0.2px;
+}
+
+
+@mixin BtnPressed{
+    background: linear-gradient(181deg, #F83600 0%, #F9D423 100%);
+    box-shadow: 0px 1px 10px 0px rgba(249, 89, 8, 0.20), 0px 3px 4px 0px rgba(222, 125, 11, 0.20);
+}
+
+@mixin BtnHover{
+    background: linear-gradient(181deg, #F83600 0%, #F9D423 100%);
+    box-shadow: 0px 2px 5px 0px rgba(54, 54, 54, 0.10);
+}
+
+@mixin BtnDisabled{
+    background: var(--grey-black-10, #EBEBEB);
+}
+
+@mixin BtnSecondary{
+    border: 1px solid var(--grey-black-20, #BFC4C9);
+    background: var(--main-white, #FFF);
+}
+
+@mixin BtnSecondaryHover{
+    border: 1px solid var(--grey-black-40, #A7A7A7);
+    background: var(--main-white, #FFF);
+    box-shadow: 0px 2px 5px 0px rgba(54, 54, 54, 0.10);
+}
+
+@mixin BtnSecondaryPressed{
+    border: 1px solid var(--grey-black-20, #BFC4C9);
+    background: var(--main-white, #FFF);
+    box-shadow: 0px 1px 10px 0px rgba(249, 89, 8, 0.20), 0px 3px 4px 0px rgba(222, 125, 11, 0.20);
+}
+
+@mixin BtnSecondaryDisabled{
+    border: 1px solid var(--grey-black-20, #BFC4C9);
+    background: var(--grey-black-5, #F9F9FA);
+}

@@ -1,0 +1,28 @@
+.Burger{
+    width: 32px;
+    height: 32px;
+    
+    margin-right: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .BurgerInner{
+        width: 27px;
+        height: 18.6px;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .line{
+            width: 27px;
+            height: 2.7px;
+            background: #363636;
+            border-radius: 5px;
+        }
+    }
+}

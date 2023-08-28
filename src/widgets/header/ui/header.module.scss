@@ -1,10 +1,69 @@
+@use '../../../app/styles/variables/mixins.scss';
+
 .header{
     height: var(--header-height);
     display: flex;
+    align-items: center;
     max-width: 1110px;
     width: 100%;
-    justify-content: center;
+    height: 105px;
+    padding-top: 15px;
+    margin-bottom: 47px;
     &-content{
         width: 100%;
     }
 }
+
+
+.HeaderContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.HeaderLeft{
+    display: flex;
+    align-items: center;
+}
+
+.HeaderRight{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.LogoWrapper{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    margin-right: 98px;
+}
+
+.LogoSmall{
+    width: 29px;
+    height: 29px;
+}
+.LogoText{
+    width: 138px;
+    height: 20px;
+}
+
+
+
+.h3{
+    @include mixins.TempH3;
+    font-size: 32px;
+}
+
+.Greet{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; 
+    letter-spacing: 0.1px;
+}
+
+
